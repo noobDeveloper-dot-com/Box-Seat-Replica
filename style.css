@@ -1,0 +1,255 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300;500;700&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --responsive-heading: clamp(1rem, 3.6vw, 1.3rem);
+}
+
+body {
+  background-color: #333545;
+  color: #fff;
+  font-family: "Nunito", sans-serif;
+}
+
+.flexB {
+  display: flex;
+}
+
+.main-bg-img {
+  position: absolute;
+  width: 100%;
+  min-width: 1250px;
+  z-index: -1;
+}
+
+header {
+  background-color: #2b2d3dc9;
+  position: fixed;
+  inset: 0 0 auto 0;
+  backdrop-filter: blur(5px);
+  z-index: 2;
+  padding-top: 15px;
+  min-height: clamp(120px, 10vw, 170px);
+  backface-visibility: hidden;
+}
+
+.main-heading {
+  text-align: center;
+  justify-content: space-around;
+  margin-bottom: clamp(0.2rem, 2vw, 0.8rem);
+
+  flex-direction: column;
+}
+
+h1 {
+  font-size: var(--responsive-heading);
+}
+
+.date_and_time {
+  text-align: center;
+}
+
+.view_modal_button {
+  position: fixed;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  background-color: red;
+  border: none;
+  padding: 10px;
+  color: inherit;
+  border-radius: 10px;
+}
+
+.modal_wrapper {
+  position: fixed;
+  /* width: 100px; */
+  top: 70%;
+  left: 0;
+  right: 0;
+  transform: translateY(-70%);
+  z-index: 2;
+  pointer-events: none;
+}
+
+.close_button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.close_button_svg {
+  width: 30px;
+}
+
+.modal {
+  background-image: url("Assets/Seat plan-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 170px;
+  background-color: #fff;
+  width: 56%;
+  max-width: 450px;
+  min-width: 275px;
+  margin: 0 auto;
+  min-height: 420px;
+  padding: 4px;
+  border-radius: 10px;
+  opacity: 0;
+
+  transition: opacity 200ms, transform 200ms;
+  transform: translateY(30px);
+}
+
+.modal.view {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.row-categories {
+  position: absolute;
+  /* transform: translateY(clamp(1rem, 15vw, 11rem)); */
+  top: 250px;
+  flex-direction: column;
+  gap: 150px;
+}
+
+:is(.ODC_category, .balcony-category) {
+  flex-direction: column;
+  gap: 35px;
+}
+
+/* The parent container */
+.seats {
+  position: absolute;
+  top: 255px;
+  left: 40px;
+}
+
+.seat_section_heading {
+  position: absolute;
+
+  left: 10%;
+}
+
+.seat_section_heading.ODC_h2 {
+  top: -35px;
+}
+
+.ODC_Seats {
+  gap: clamp(1.5rem, 8vw, 9rem);
+}
+
+.balcony_Seats {
+  gap: clamp(1.5rem, 6vw, 5.1rem);
+}
+
+.seat {
+  flex-direction: column;
+  gap: 3px;
+  flex-shrink: 0;
+}
+
+.seat_CB {
+  display: none;
+}
+
+:is(.seat_top, .seat_bottom) {
+  display: inline-block;
+  border: 1px solid grey;
+}
+
+.seat_top {
+  padding: 3px 0;
+  width: 38px;
+  border-radius: 5px;
+  font-size: 0.7rem;
+  text-align: center;
+}
+
+.seat_bottom {
+  width: 30px;
+  margin: 0 auto;
+  min-height: 11px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+/* when hovering over the seat */
+.seat_top:hover {
+  background-color: grey;
+}
+
+.seat_top:hover + .seat_bottom {
+  background-color: grey;
+}
+
+/*when clicking the seat */
+
+.seat_CB:checked + .seat_top {
+  background-color: red;
+}
+
+.seat_CB:checked + .seat_top + .seat_bottom {
+  background-color: red;
+}
+
+/* Spacing between seat section */
+
+.seat_section + .seat_section {
+  margin-top: 108px;
+}
+
+/* Spacing between seats */
+.row {
+  gap: 10px;
+}
+
+/* Spacing between rows */
+
+.row + .row {
+  margin-top: 19.5px;
+}
+
+.first__column {
+  transform: translateY(55px);
+}
+
+.third__column {
+  transform: translateY(55px);
+}
+
+/* pushes every ODC rows in the first column to the right */
+
+.ODC_Seats .first__column .row {
+  justify-content: flex-end;
+}
+
+/* Places the seats in Box right at the center */
+.box_Seats {
+  justify-content: center;
+}
+
+.balcony_Seats .second__column {
+  transform: translateY(110px);
+}
+
+.balcony_Seats .third__column .row {
+  justify-content: flex-end;
+}
+@media (min-width: 523px) {
+  .modal {
+    width: 60%;
+    background-image: url("Assets/Seat plan-desktop.png");
+    background-size: 300px;
+    min-height: 480px;
+  }
+}

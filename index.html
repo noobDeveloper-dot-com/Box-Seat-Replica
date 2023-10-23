@@ -1,0 +1,3544 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes"
+    />
+
+    <title>Box Plan</title>
+    <link rel="stylesheet" href="style.css" />
+    <script type="module" src="/main.js"></script>
+  </head>
+  <body>
+    <!-- Background Image -->
+    <img
+      src="Assets\view_seat_bg.png"
+      alt="background image"
+      class="main-bg-img"
+    />
+
+    <header>
+      <section class="main-heading flexB">
+        <h1 class="movie-title-h1">LEO (2023)</h1>
+        <h1 class="theatre-h1">SAVOY 3D DOLBY ATMOS</h1>
+      </section>
+      <p class="date_and_time">2023-10-19 | 04:00 AM</p>
+    </header>
+
+    <div class="row-categories flexB">
+      <div class="ODC_category flexB">
+        <p>S</p>
+        <p>R</p>
+        <p>Q</p>
+        <p>P</p>
+        <p>N</p>
+        <p>M</p>
+        <p>L</p>
+        <p>K</p>
+        <p>J</p>
+        <p>H</p>
+        <p>G</p>
+        <p>F</p>
+        <p>E</p>
+        <p>D</p>
+        <p>C</p>
+        <p>B</p>
+        <p>A</p>
+      </div>
+
+      <div class="box-category">
+        <p>B</p>
+      </div>
+
+      <div class="balcony-category flexB">
+        <p>G</p>
+        <p>F</p>
+        <p>E</p>
+        <p>C</p>
+        <p>B</p>
+        <p>A</p>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <button class="view_modal_button">View Seats</button>
+    <section class="modal_wrapper">
+      <section class="modal">
+        <button class="close_button">
+          <svg
+            class="close_button_svg"
+            viewBox="0 0 42 42"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <circle cx="21" cy="21" r="21" fill="black" />
+            <line
+              x1="10.8281"
+              y1="9.19508"
+              x2="32.3165"
+              y2="30.6834"
+              stroke="white"
+              stroke-width="3"
+            />
+            <line
+              y1="-1.5"
+              x2="30.3891"
+              y2="-1.5"
+              transform="matrix(-0.707107 0.707107 0.707107 0.707107 32.2325 10.2557)"
+              stroke="white"
+              stroke-width="3"
+            />
+          </svg>
+        </button>
+      </section>
+    </section>
+
+    <section class="seats">
+      <section class="ODC_Seats flexB seat_section">
+        <h2 class="seat_section_heading ODC_h2">ODC</h2>
+        <section class="first__column">
+          <section class="second__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="r1" />
+              <label class="seat_top" for="r1">R1</label>
+              <label class="seat_bottom" for="r1"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="r2" />
+              <label class="seat_top" for="r2">R2</label>
+              <label class="seat_bottom" for="r2"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="r3" />
+              <label class="seat_top" for="r3">R3</label>
+              <label class="seat_bottom" for="r3"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="r4" />
+              <label class="seat_top" for="r4">R4</label>
+              <label class="seat_bottom" for="r4"></label>
+            </div>
+          </section>
+
+          <section class="third__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="q1" />
+              <label class="seat_top" for="q1">Q1</label>
+              <label class="seat_bottom" for="q1"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="q2" />
+              <label class="seat_top" for="q2">Q2</label>
+              <label class="seat_bottom" for="q2"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="q3" />
+              <label class="seat_top" for="q3">Q3</label>
+              <label class="seat_bottom" for="q3"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="q4" />
+              <label class="seat_top" for="q4">Q4</label>
+              <label class="seat_bottom" for="q4"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="q5" />
+              <label class="seat_top" for="q5">Q5</label>
+              <label class="seat_bottom" for="q5"></label>
+            </div>
+          </section>
+
+          <section class="fourth__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="p1" />
+              <label class="seat_top" for="p1">P1</label>
+              <label class="seat_bottom" for="p1"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="p2" />
+              <label class="seat_top" for="p2">P2</label>
+              <label class="seat_bottom" for="p2"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="p3" />
+              <label class="seat_top" for="p3">P3</label>
+              <label class="seat_bottom" for="p3"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="p4" />
+              <label class="seat_top" for="p4">P4</label>
+              <label class="seat_bottom" for="p4"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="p5" />
+              <label class="seat_top" for="p5">P5</label>
+              <label class="seat_bottom" for="p5"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="p6" />
+              <label class="seat_top" for="p6">P6</label>
+              <label class="seat_bottom" for="p6"></label>
+            </div>
+          </section>
+
+          <section class="fifth__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="n1" />
+              <label class="seat_top" for="n1">N1</label>
+              <label class="seat_bottom" for="n1"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="n2" />
+              <label class="seat_top" for="n2">N2</label>
+              <label class="seat_bottom" for="n2"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="n3" />
+              <label class="seat_top" for="n3">N3</label>
+              <label class="seat_bottom" for="n3"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="n4" />
+              <label class="seat_top" for="n4">N4</label>
+              <label class="seat_bottom" for="n4"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="n5" />
+              <label class="seat_top" for="n5">N5</label>
+              <label class="seat_bottom" for="n5"></label>
+            </div>
+          </section>
+
+          <section class="sixth__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="m1" />
+              <label class="seat_top" for="m1">M1</label>
+              <label class="seat_bottom" for="m1"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="m2" />
+              <label class="seat_top" for="m2">M2</label>
+              <label class="seat_bottom" for="m2"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="m3" />
+              <label class="seat_top" for="m3">M3</label>
+              <label class="seat_bottom" for="m3"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="m4" />
+              <label class="seat_top" for="m4">M4</label>
+              <label class="seat_bottom" for="m4"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="m5" />
+              <label class="seat_top" for="m5">M5</label>
+              <label class="seat_bottom" for="m5"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="m6" />
+              <label class="seat_top" for="m6">M6</label>
+              <label class="seat_bottom" for="m6"></label>
+            </div>
+          </section>
+
+          <section class="seventh__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="l1" />
+              <label class="seat_top" for="l1">L1</label>
+              <label class="seat_bottom" for="l1"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="l2" />
+              <label class="seat_top" for="l2">L2</label>
+              <label class="seat_bottom" for="l2"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="l3" />
+              <label class="seat_top" for="l3">L3</label>
+              <label class="seat_bottom" for="l3"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="l4" />
+              <label class="seat_top" for="l4">L4</label>
+              <label class="seat_bottom" for="l4"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="l5" />
+              <label class="seat_top" for="l5">L5</label>
+              <label class="seat_bottom" for="l5"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="l6" />
+              <label class="seat_top" for="l6">L6</label>
+              <label class="seat_bottom" for="l6"></label>
+            </div>
+          </section>
+
+          <section class="eight__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="k1" />
+              <label class="seat_top" for="k1">K1</label>
+              <label class="seat_bottom" for="k1"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="k2" />
+              <label class="seat_top" for="k2">K2</label>
+              <label class="seat_bottom" for="k2"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="k3" />
+              <label class="seat_top" for="k3">K3</label>
+              <label class="seat_bottom" for="k3"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="k4" />
+              <label class="seat_top" for="k4">K4</label>
+              <label class="seat_bottom" for="k4"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="k5" />
+              <label class="seat_top" for="k5">K5</label>
+              <label class="seat_bottom" for="k5"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="k6" />
+              <label class="seat_top" for="k6">K6</label>
+              <label class="seat_bottom" for="k6"></label>
+            </div>
+          </section>
+
+          <section class="nine__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="j1" />
+              <label class="seat_top" for="j1">J1</label>
+              <label class="seat_bottom" for="j1"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="j2" />
+              <label class="seat_top" for="j2">J2</label>
+              <label class="seat_bottom" for="j2"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="j3" />
+              <label class="seat_top" for="j3">J3</label>
+              <label class="seat_bottom" for="j3"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="j4" />
+              <label class="seat_top" for="j4">J4</label>
+              <label class="seat_bottom" for="j4"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="j5" />
+              <label class="seat_top" for="j5">J5</label>
+              <label class="seat_bottom" for="j5"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="j6" />
+              <label class="seat_top" for="j6">J6</label>
+              <label class="seat_bottom" for="j6"></label>
+            </div>
+          </section>
+
+          <section class="tenth__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="h1" />
+              <label class="seat_top" for="h1">H1</label>
+              <label class="seat_bottom" for="i1"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="h2" />
+              <label class="seat_top" for="h2">H2</label>
+              <label class="seat_bottom" for="h2"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="h3" />
+              <label class="seat_top" for="h3">H3</label>
+              <label class="seat_bottom" for="h3"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="h4" />
+              <label class="seat_top" for="h4">H4</label>
+              <label class="seat_bottom" for="h4"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="h5" />
+              <label class="seat_top" for="h5">H5</label>
+              <label class="seat_bottom" for="h5"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="h6" />
+              <label class="seat_top" for="h6">H6</label>
+              <label class="seat_bottom" for="h6"></label>
+            </div>
+          </section>
+
+          <section class="eleventh__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="g1" />
+              <label class="seat_top" for="g1">G1</label>
+              <label class="seat_bottom" for="g1"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="g2" />
+              <label class="seat_top" for="g2">G2</label>
+              <label class="seat_bottom" for="g2"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="g3" />
+              <label class="seat_top" for="g3">G3</label>
+              <label class="seat_bottom" for="g3"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="g4" />
+              <label class="seat_top" for="g4">G4</label>
+              <label class="seat_bottom" for="g4"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="g5" />
+              <label class="seat_top" for="g5">G5</label>
+              <label class="seat_bottom" for="g5"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="g6" />
+              <label class="seat_top" for="g6">G6</label>
+              <label class="seat_bottom" for="g6"></label>
+            </div>
+          </section>
+
+          <section class="twelveth__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="f1" />
+              <label class="seat_top" for="f1">F1</label>
+              <label class="seat_bottom" for="f1"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="f2" />
+              <label class="seat_top" for="f2">F2</label>
+              <label class="seat_bottom" for="f2"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="f3" />
+              <label class="seat_top" for="f3">F3</label>
+              <label class="seat_bottom" for="f3"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="f4" />
+              <label class="seat_top" for="f4">F4</label>
+              <label class="seat_bottom" for="f4"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="f5" />
+              <label class="seat_top" for="f5">F5</label>
+              <label class="seat_bottom" for="f5"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="f6" />
+              <label class="seat_top" for="f6">F6</label>
+              <label class="seat_bottom" for="f6"></label>
+            </div>
+          </section>
+
+          <section class="thirteenth__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="e1" />
+              <label class="seat_top" for="e1">E1</label>
+              <label class="seat_bottom" for="e1"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="e2" />
+              <label class="seat_top" for="e2">E2</label>
+              <label class="seat_bottom" for="e2"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="e3" />
+              <label class="seat_top" for="e3">E3</label>
+              <label class="seat_bottom" for="e3"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="e4" />
+              <label class="seat_top" for="e4">E4</label>
+              <label class="seat_bottom" for="e4"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="e5" />
+              <label class="seat_top" for="e5">E5</label>
+              <label class="seat_bottom" for="e5"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="e6" />
+              <label class="seat_top" for="e6">E6</label>
+              <label class="seat_bottom" for="e6"></label>
+            </div>
+          </section>
+
+          <section class="fourteenth__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="d1" />
+              <label class="seat_top" for="d1">D1</label>
+              <label class="seat_bottom" for="d1"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="d2" />
+              <label class="seat_top" for="d2">D2</label>
+              <label class="seat_bottom" for="d2"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="d3" />
+              <label class="seat_top" for="d3">D3</label>
+              <label class="seat_bottom" for="d3"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="d4" />
+              <label class="seat_top" for="d4">D4</label>
+              <label class="seat_bottom" for="d4"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="d5" />
+              <label class="seat_top" for="d5">D5</label>
+              <label class="seat_bottom" for="d5"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="d6" />
+              <label class="seat_top" for="d6">D6</label>
+              <label class="seat_bottom" for="d6"></label>
+            </div>
+          </section>
+
+          <section class="fifthteenth__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="c1" />
+              <label class="seat_top" for="c1">C1</label>
+              <label class="seat_bottom" for="c1"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="c2" />
+              <label class="seat_top" for="c2">C2</label>
+              <label class="seat_bottom" for="c2"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="c3" />
+              <label class="seat_top" for="c3">C3</label>
+              <label class="seat_bottom" for="c3"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="c4" />
+              <label class="seat_top" for="c4">C4</label>
+              <label class="seat_bottom" for="c4"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="c5" />
+              <label class="seat_top" for="c5">C5</label>
+              <label class="seat_bottom" for="c5"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="c6" />
+              <label class="seat_top" for="c6">C6</label>
+              <label class="seat_bottom" for="c6"></label>
+            </div>
+          </section>
+
+          <section class="sixthteenth__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="b1" />
+              <label class="seat_top" for="b1">B1</label>
+              <label class="seat_bottom" for="b1"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="b2" />
+              <label class="seat_top" for="b2">B2</label>
+              <label class="seat_bottom" for="b2"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="b3" />
+              <label class="seat_top" for="b3">B3</label>
+              <label class="seat_bottom" for="b3"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="b4" />
+              <label class="seat_top" for="b4">B4</label>
+              <label class="seat_bottom" for="b4"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="b5" />
+              <label class="seat_top" for="b5">B5</label>
+              <label class="seat_bottom" for="b5"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="b6" />
+              <label class="seat_top" for="b6">B6</label>
+              <label class="seat_bottom" for="b6"></label>
+            </div>
+          </section>
+
+          <section class="seventhteenth__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="a1" />
+              <label class="seat_top" for="a1">A1</label>
+              <label class="seat_bottom" for="a1"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="a2" />
+              <label class="seat_top" for="a2">A2</label>
+              <label class="seat_bottom" for="a2"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="a3" />
+              <label class="seat_top" for="a3">A3</label>
+              <label class="seat_bottom" for="a3"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="a4" />
+              <label class="seat_top" for="a4">A4</label>
+              <label class="seat_bottom" for="a4"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="a5" />
+              <label class="seat_top" for="a5">A5</label>
+              <label class="seat_bottom" for="a5"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="a6" />
+              <label class="seat_top" for="a6">A6</label>
+              <label class="seat_bottom" for="a6"></label>
+            </div>
+          </section>
+        </section>
+
+        <!-- Second Column -->
+
+        <section class="second__column">
+          <section class="first__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="s1" />
+              <label class="seat_top" for="s1">S1</label>
+              <label class="seat_bottom" for="s1"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="s2" />
+              <label class="seat_top" for="s2">S2</label>
+              <label class="seat_bottom" for="s2"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="s3" />
+              <label class="seat_top" for="S3">S3</label>
+              <label class="seat_bottom" for="S3"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="s4" />
+              <label class="seat_top" for="s4">S4</label>
+              <label class="seat_bottom" for="s4"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="s5" />
+              <label class="seat_top" for="s5">S5</label>
+              <label class="seat_bottom" for="s5"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="s6" />
+              <label class="seat_top" for="s6">S6</label>
+              <label class="seat_bottom" for="s6"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="s7" />
+              <label class="seat_top" for="s7">S7</label>
+              <label class="seat_bottom" for="s7"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="s8" />
+              <label class="seat_top" for="s8">S8</label>
+              <label class="seat_bottom" for="s8"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="s9" />
+              <label class="seat_top" for="s9">S9</label>
+              <label class="seat_bottom" for="s9"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="s10" />
+              <label class="seat_top" for="s10">S10</label>
+              <label class="seat_bottom" for="s10"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="s11" />
+              <label class="seat_top" for="s11">S11</label>
+              <label class="seat_bottom" for="s11"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="s12" />
+              <label class="seat_top" for="s12">S12</label>
+              <label class="seat_bottom" for="s12"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="s13" />
+              <label class="seat_top" for="s13">S13</label>
+              <label class="seat_bottom" for="s13"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="s14" />
+              <label class="seat_top" for="s14">S14</label>
+              <label class="seat_bottom" for="s14"></label>
+            </div>
+          </section>
+
+          <section class="second__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="r5" />
+              <label class="seat_top" for="r5">R5</label>
+              <label class="seat_bottom" for="r5"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="r6" />
+              <label class="seat_top" for="r6">R6</label>
+              <label class="seat_bottom" for="r6"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="r7" />
+              <label class="seat_top" for="r7">R7</label>
+              <label class="seat_bottom" for="r7"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="r8" />
+              <label class="seat_top" for="r8">R8</label>
+              <label class="seat_bottom" for="r8"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="r9" />
+              <label class="seat_top" for="r9">R9</label>
+              <label class="seat_bottom" for="r9"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="r10" />
+              <label class="seat_top" for="r10">R10</label>
+              <label class="seat_bottom" for="r10"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="r11" />
+              <label class="seat_top" for="r11">R11</label>
+              <label class="seat_bottom" for="r11"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="r12" />
+              <label class="seat_top" for="r12">R12</label>
+              <label class="seat_bottom" for="r12"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="r13" />
+              <label class="seat_top" for="r13">R13</label>
+              <label class="seat_bottom" for="r13"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="r14" />
+              <label class="seat_top" for="r14">R14</label>
+              <label class="seat_bottom" for="r14"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="r15" />
+              <label class="seat_top" for="r15">R15</label>
+              <label class="seat_bottom" for="r15"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="r16" />
+              <label class="seat_top" for="r16">R16</label>
+              <label class="seat_bottom" for="r16"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="r17" />
+              <label class="seat_top" for="r17">R17</label>
+              <label class="seat_bottom" for="r17"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="r18" />
+              <label class="seat_top" for="r18">R18</label>
+              <label class="seat_bottom" for="r18"></label>
+            </div>
+          </section>
+
+          <section class="third__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="q6" />
+              <label class="seat_top" for="q6">Q6</label>
+              <label class="seat_bottom" for="q6"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="q7" />
+              <label class="seat_top" for="q7">Q7</label>
+              <label class="seat_bottom" for="q7"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="q8" />
+              <label class="seat_top" for="q8">Q8</label>
+              <label class="seat_bottom" for="q8"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="q9" />
+              <label class="seat_top" for="q9">Q9</label>
+              <label class="seat_bottom" for="q9"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="q10" />
+              <label class="seat_top" for="q10">Q10</label>
+              <label class="seat_bottom" for="q10"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="q11" />
+              <label class="seat_top" for="q11">Q11</label>
+              <label class="seat_bottom" for="q11"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="q12" />
+              <label class="seat_top" for="q12">Q12</label>
+              <label class="seat_bottom" for="q12"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="q13" />
+              <label class="seat_top" for="q13">Q13</label>
+              <label class="seat_bottom" for="q13"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="q14" />
+              <label class="seat_top" for="q14">Q14</label>
+              <label class="seat_bottom" for="q14"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="q15" />
+              <label class="seat_top" for="q15">Q15</label>
+              <label class="seat_bottom" for="q15"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="q16" />
+              <label class="seat_top" for="q16">Q16</label>
+              <label class="seat_bottom" for="q16"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="q17" />
+              <label class="seat_top" for="q17">Q17</label>
+              <label class="seat_bottom" for="q17"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="q18" />
+              <label class="seat_top" for="q18">Q18</label>
+              <label class="seat_bottom" for="q18"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="q19" />
+              <label class="seat_top" for="q19">Q19</label>
+              <label class="seat_bottom" for="q19"></label>
+            </div>
+          </section>
+
+          <section class="fourth__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="p7" />
+              <label class="seat_top" for="p7">P7</label>
+              <label class="seat_bottom" for="p7"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="p8" />
+              <label class="seat_top" for="p8">P8</label>
+              <label class="seat_bottom" for="p8"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="p9" />
+              <label class="seat_top" for="p9">P9</label>
+              <label class="seat_bottom" for="p9"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="p10" />
+              <label class="seat_top" for="p10">P10</label>
+              <label class="seat_bottom" for="p10"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="p11" />
+              <label class="seat_top" for="p11">P11</label>
+              <label class="seat_bottom" for="p11"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="p12" />
+              <label class="seat_top" for="p12">P12</label>
+              <label class="seat_bottom" for="p12"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="p13" />
+              <label class="seat_top" for="p13">P13</label>
+              <label class="seat_bottom" for="p13"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="p14" />
+              <label class="seat_top" for="p14">P14</label>
+              <label class="seat_bottom" for="p14"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="p15" />
+              <label class="seat_top" for="p15">P15</label>
+              <label class="seat_bottom" for="p15"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="p16" />
+              <label class="seat_top" for="p16">P16</label>
+              <label class="seat_bottom" for="p16"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="p17" />
+              <label class="seat_top" for="p17">P17</label>
+              <label class="seat_bottom" for="p17"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="p18" />
+              <label class="seat_top" for="p18">P18</label>
+              <label class="seat_bottom" for="p18"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="p19" />
+              <label class="seat_top" for="p19">P19</label>
+              <label class="seat_bottom" for="p19"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="p20" />
+              <label class="seat_top" for="p20">P20</label>
+              <label class="seat_bottom" for="p20"></label>
+            </div>
+          </section>
+
+          <section class="fifth__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="n6" />
+              <label class="seat_top" for="n6">N6</label>
+              <label class="seat_bottom" for="n7"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="n7" />
+              <label class="seat_top" for="n7">N7</label>
+              <label class="seat_bottom" for="n7"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="n8" />
+              <label class="seat_top" for="n8">N8</label>
+              <label class="seat_bottom" for="n8"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="n9" />
+              <label class="seat_top" for="n9">N9</label>
+              <label class="seat_bottom" for="n9"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="n10" />
+              <label class="seat_top" for="n10">N10</label>
+              <label class="seat_bottom" for="n10"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="n11" />
+              <label class="seat_top" for="n11">N11</label>
+              <label class="seat_bottom" for="n11"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="n12" />
+              <label class="seat_top" for="n12">N12</label>
+              <label class="seat_bottom" for="n12"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="n13" />
+              <label class="seat_top" for="n13">N13</label>
+              <label class="seat_bottom" for="n13"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="n14" />
+              <label class="seat_top" for="n14">N14</label>
+              <label class="seat_bottom" for="n14"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="n15" />
+              <label class="seat_top" for="n15">N15</label>
+              <label class="seat_bottom" for="n15"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="n16" />
+              <label class="seat_top" for="n16">N16</label>
+              <label class="seat_bottom" for="n16"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="n17" />
+              <label class="seat_top" for="n17">N17</label>
+              <label class="seat_bottom" for="n17"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="n18" />
+              <label class="seat_top" for="n18">N18</label>
+              <label class="seat_bottom" for="n18"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="n19" />
+              <label class="seat_top" for="n19">N19</label>
+              <label class="seat_bottom" for="n19"></label>
+            </div>
+          </section>
+
+          <section class="sixth__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="m7" />
+              <label class="seat_top" for="m7">M7</label>
+              <label class="seat_bottom" for="m7"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="m8" />
+              <label class="seat_top" for="m8">M8</label>
+              <label class="seat_bottom" for="m8"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="m9" />
+              <label class="seat_top" for="m9">M9</label>
+              <label class="seat_bottom" for="m9"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="m10" />
+              <label class="seat_top" for="m10">M10</label>
+              <label class="seat_bottom" for="m10"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="m11" />
+              <label class="seat_top" for="m11">M11</label>
+              <label class="seat_bottom" for="m11"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="m12" />
+              <label class="seat_top" for="m12">M12</label>
+              <label class="seat_bottom" for="m12"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="m13" />
+              <label class="seat_top" for="m13">M13</label>
+              <label class="seat_bottom" for="m13"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="m14" />
+              <label class="seat_top" for="m14">M14</label>
+              <label class="seat_bottom" for="m14"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="m15" />
+              <label class="seat_top" for="m15">M15</label>
+              <label class="seat_bottom" for="m15"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="m16" />
+              <label class="seat_top" for="m16">M16</label>
+              <label class="seat_bottom" for="m16"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="m17" />
+              <label class="seat_top" for="m17">M17</label>
+              <label class="seat_bottom" for="m17"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="m18" />
+              <label class="seat_top" for="m18">M18</label>
+              <label class="seat_bottom" for="m18"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="m19" />
+              <label class="seat_top" for="m19">M19</label>
+              <label class="seat_bottom" for="m19"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="m20" />
+              <label class="seat_top" for="m20">M20</label>
+              <label class="seat_bottom" for="m20"></label>
+            </div>
+          </section>
+
+          <section class="seventh__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="l7" />
+              <label class="seat_top" for="l7">L7</label>
+              <label class="seat_bottom" for="l7"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="l8" />
+              <label class="seat_top" for="l8">L8</label>
+              <label class="seat_bottom" for="l8"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="l9" />
+              <label class="seat_top" for="l9">L9</label>
+              <label class="seat_bottom" for="l9"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="l10" />
+              <label class="seat_top" for="l10">L10</label>
+              <label class="seat_bottom" for="l10"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="l11" />
+              <label class="seat_top" for="l11">L11</label>
+              <label class="seat_bottom" for="l11"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="l12" />
+              <label class="seat_top" for="l12">L12</label>
+              <label class="seat_bottom" for="l12"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="l13" />
+              <label class="seat_top" for="l13">L13</label>
+              <label class="seat_bottom" for="l13"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="l14" />
+              <label class="seat_top" for="l14">L14</label>
+              <label class="seat_bottom" for="l14"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="l15" />
+              <label class="seat_top" for="l15">L15</label>
+              <label class="seat_bottom" for="l15"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="l16" />
+              <label class="seat_top" for="l16">L16</label>
+              <label class="seat_bottom" for="l16"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="l17" />
+              <label class="seat_top" for="l17">L17</label>
+              <label class="seat_bottom" for="l17"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="l18" />
+              <label class="seat_top" for="l18">L18</label>
+              <label class="seat_bottom" for="l18"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="l19" />
+              <label class="seat_top" for="l19">L19</label>
+              <label class="seat_bottom" for="l19"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="l20" />
+              <label class="seat_top" for="l20">L20</label>
+              <label class="seat_bottom" for="l20"></label>
+            </div>
+          </section>
+
+          <section class="eighth__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="k7" />
+              <label class="seat_top" for="k7">K7</label>
+              <label class="seat_bottom" for="k7"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="k8" />
+              <label class="seat_top" for="k8">K8</label>
+              <label class="seat_bottom" for="k8"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="k9" />
+              <label class="seat_top" for="k9">K9</label>
+              <label class="seat_bottom" for="k9"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="k10" />
+              <label class="seat_top" for="k10">K10</label>
+              <label class="seat_bottom" for="k10"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="k11" />
+              <label class="seat_top" for="k11">K11</label>
+              <label class="seat_bottom" for="k11"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="k12" />
+              <label class="seat_top" for="k12">K12</label>
+              <label class="seat_bottom" for="k12"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="k13" />
+              <label class="seat_top" for="k13">K13</label>
+              <label class="seat_bottom" for="k13"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="k14" />
+              <label class="seat_top" for="k14">K14</label>
+              <label class="seat_bottom" for="k14"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="k15" />
+              <label class="seat_top" for="k15">K15</label>
+              <label class="seat_bottom" for="k15"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="k16" />
+              <label class="seat_top" for="k16">K16</label>
+              <label class="seat_bottom" for="k16"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="k17" />
+              <label class="seat_top" for="k17">K17</label>
+              <label class="seat_bottom" for="k17"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="k18" />
+              <label class="seat_top" for="k18">K18</label>
+              <label class="seat_bottom" for="k18"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="k19" />
+              <label class="seat_top" for="k19">K19</label>
+              <label class="seat_bottom" for="k19"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="k20" />
+              <label class="seat_top" for="k20">K20</label>
+              <label class="seat_bottom" for="k20"></label>
+            </div>
+          </section>
+
+          <section class="nineth__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="j7" />
+              <label class="seat_top" for="j7">J7</label>
+              <label class="seat_bottom" for="j7"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="j8" />
+              <label class="seat_top" for="j8">J8</label>
+              <label class="seat_bottom" for="j8"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="j9" />
+              <label class="seat_top" for="j9">J9</label>
+              <label class="seat_bottom" for="j9"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="j10" />
+              <label class="seat_top" for="j10">J10</label>
+              <label class="seat_bottom" for="j10"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="j11" />
+              <label class="seat_top" for="j11">J11</label>
+              <label class="seat_bottom" for="j11"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="j12" />
+              <label class="seat_top" for="j12">J12</label>
+              <label class="seat_bottom" for="j12"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="j13" />
+              <label class="seat_top" for="j13">J13</label>
+              <label class="seat_bottom" for="j13"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="j14" />
+              <label class="seat_top" for="j14">J14</label>
+              <label class="seat_bottom" for="j14"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="j15" />
+              <label class="seat_top" for="j15">J15</label>
+              <label class="seat_bottom" for="j15"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="j16" />
+              <label class="seat_top" for="j16">J16</label>
+              <label class="seat_bottom" for="j16"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="j17" />
+              <label class="seat_top" for="j17">J17</label>
+              <label class="seat_bottom" for="j17"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="j18" />
+              <label class="seat_top" for="j18">J18</label>
+              <label class="seat_bottom" for="j18"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="j19" />
+              <label class="seat_top" for="j19">J19</label>
+              <label class="seat_bottom" for="j19"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="j20" />
+              <label class="seat_top" for="j20">J20</label>
+              <label class="seat_bottom" for="j20"></label>
+            </div>
+          </section>
+
+          <section class="tenth__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="h7" />
+              <label class="seat_top" for="h7">H7</label>
+              <label class="seat_bottom" for="h7"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="h8" />
+              <label class="seat_top" for="h8">H8</label>
+              <label class="seat_bottom" for="h8"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="h9" />
+              <label class="seat_top" for="h9">H9</label>
+              <label class="seat_bottom" for="h9"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="h10" />
+              <label class="seat_top" for="h10">H10</label>
+              <label class="seat_bottom" for="h10"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="h11" />
+              <label class="seat_top" for="h11">H11</label>
+              <label class="seat_bottom" for="h11"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="h12" />
+              <label class="seat_top" for="h12">H12</label>
+              <label class="seat_bottom" for="h12"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="h13" />
+              <label class="seat_top" for="h13">H13</label>
+              <label class="seat_bottom" for="h13"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="h14" />
+              <label class="seat_top" for="h14">H14</label>
+              <label class="seat_bottom" for="h14"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="h15" />
+              <label class="seat_top" for="h15">H15</label>
+              <label class="seat_bottom" for="h15"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="h16" />
+              <label class="seat_top" for="h16">H16</label>
+              <label class="seat_bottom" for="h16"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="h17" />
+              <label class="seat_top" for="h17">H17</label>
+              <label class="seat_bottom" for="h17"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="h18" />
+              <label class="seat_top" for="h18">H18</label>
+              <label class="seat_bottom" for="h18"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="h19" />
+              <label class="seat_top" for="h19">H19</label>
+              <label class="seat_bottom" for="h19"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="h20" />
+              <label class="seat_top" for="h20">H20</label>
+              <label class="seat_bottom" for="h20"></label>
+            </div>
+          </section>
+
+          <section class="eleventh__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="g7" />
+              <label class="seat_top" for="g7">G7</label>
+              <label class="seat_bottom" for="g7"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="g8" />
+              <label class="seat_top" for="g8">G8</label>
+              <label class="seat_bottom" for="g8"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="g9" />
+              <label class="seat_top" for="g9">G9</label>
+              <label class="seat_bottom" for="g9"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="g10" />
+              <label class="seat_top" for="g10">G10</label>
+              <label class="seat_bottom" for="g10"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="g11" />
+              <label class="seat_top" for="g11">G11</label>
+              <label class="seat_bottom" for="g11"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="g12" />
+              <label class="seat_top" for="g12">G12</label>
+              <label class="seat_bottom" for="g12"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="g13" />
+              <label class="seat_top" for="g13">G13</label>
+              <label class="seat_bottom" for="g13"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="g14" />
+              <label class="seat_top" for="g14">G14</label>
+              <label class="seat_bottom" for="g14"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="g15" />
+              <label class="seat_top" for="g15">G15</label>
+              <label class="seat_bottom" for="g15"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="g16" />
+              <label class="seat_top" for="g16">G16</label>
+              <label class="seat_bottom" for="g16"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="g17" />
+              <label class="seat_top" for="g17">G17</label>
+              <label class="seat_bottom" for="g17"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="g18" />
+              <label class="seat_top" for="g18">G18</label>
+              <label class="seat_bottom" for="g18"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="g19" />
+              <label class="seat_top" for="g19">G19</label>
+              <label class="seat_bottom" for="g19"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="g20" />
+              <label class="seat_top" for="g20">G20</label>
+              <label class="seat_bottom" for="g20"></label>
+            </div>
+          </section>
+
+          <section class="twelveth__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="f7" />
+              <label class="seat_top" for="f7">F7</label>
+              <label class="seat_bottom" for="f7"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="f8" />
+              <label class="seat_top" for="f8">F8</label>
+              <label class="seat_bottom" for="f8"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="f9" />
+              <label class="seat_top" for="f9">F9</label>
+              <label class="seat_bottom" for="f9"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="f10" />
+              <label class="seat_top" for="f10">F10</label>
+              <label class="seat_bottom" for="f10"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="f11" />
+              <label class="seat_top" for="f11">F11</label>
+              <label class="seat_bottom" for="f11"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="f12" />
+              <label class="seat_top" for="f12">F12</label>
+              <label class="seat_bottom" for="f12"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="f13" />
+              <label class="seat_top" for="f13">F13</label>
+              <label class="seat_bottom" for="f13"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="f14" />
+              <label class="seat_top" for="f14">F14</label>
+              <label class="seat_bottom" for="f14"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="f15" />
+              <label class="seat_top" for="f15">F15</label>
+              <label class="seat_bottom" for="f15"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="f16" />
+              <label class="seat_top" for="f16">F16</label>
+              <label class="seat_bottom" for="f16"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="f17" />
+              <label class="seat_top" for="f17">F17</label>
+              <label class="seat_bottom" for="f17"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="f18" />
+              <label class="seat_top" for="f18">F18</label>
+              <label class="seat_bottom" for="f18"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="f19" />
+              <label class="seat_top" for="f19">F19</label>
+              <label class="seat_bottom" for="f19"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="f20" />
+              <label class="seat_top" for="f20">F20</label>
+              <label class="seat_bottom" for="f20"></label>
+            </div>
+          </section>
+
+          <section class="thirteenth__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="e7" />
+              <label class="seat_top" for="e7">E7</label>
+              <label class="seat_bottom" for="e7"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="e8" />
+              <label class="seat_top" for="e8">E8</label>
+              <label class="seat_bottom" for="e8"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="e9" />
+              <label class="seat_top" for="e9">E9</label>
+              <label class="seat_bottom" for="e9"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="e10" />
+              <label class="seat_top" for="e10">E10</label>
+              <label class="seat_bottom" for="e10"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="e11" />
+              <label class="seat_top" for="e11">E11</label>
+              <label class="seat_bottom" for="e11"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="e12" />
+              <label class="seat_top" for="e12">E12</label>
+              <label class="seat_bottom" for="e12"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="e13" />
+              <label class="seat_top" for="e13">E13</label>
+              <label class="seat_bottom" for="e13"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="e14" />
+              <label class="seat_top" for="e14">E14</label>
+              <label class="seat_bottom" for="e14"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="e15" />
+              <label class="seat_top" for="e15">E15</label>
+              <label class="seat_bottom" for="e15"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="e16" />
+              <label class="seat_top" for="e16">E16</label>
+              <label class="seat_bottom" for="e16"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="e17" />
+              <label class="seat_top" for="e17">E17</label>
+              <label class="seat_bottom" for="e17"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="e18" />
+              <label class="seat_top" for="e18">E18</label>
+              <label class="seat_bottom" for="e18"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="e19" />
+              <label class="seat_top" for="e19">E19</label>
+              <label class="seat_bottom" for="e19"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="e20" />
+              <label class="seat_top" for="e20">E20</label>
+              <label class="seat_bottom" for="e20"></label>
+            </div>
+          </section>
+
+          <section class="fourteenth__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="d7" />
+              <label class="seat_top" for="d7">D7</label>
+              <label class="seat_bottom" for="d7"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="d8" />
+              <label class="seat_top" for="d8">D8</label>
+              <label class="seat_bottom" for="d8"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="d9" />
+              <label class="seat_top" for="d9">D9</label>
+              <label class="seat_bottom" for="d9"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="d10" />
+              <label class="seat_top" for="d10">D10</label>
+              <label class="seat_bottom" for="d10"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="d11" />
+              <label class="seat_top" for="d11">D11</label>
+              <label class="seat_bottom" for="d11"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="d12" />
+              <label class="seat_top" for="d12">D12</label>
+              <label class="seat_bottom" for="d12"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="d13" />
+              <label class="seat_top" for="d13">D13</label>
+              <label class="seat_bottom" for="d13"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="d14" />
+              <label class="seat_top" for="d14">D14</label>
+              <label class="seat_bottom" for="d14"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="d15" />
+              <label class="seat_top" for="d15">D15</label>
+              <label class="seat_bottom" for="d15"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="d16" />
+              <label class="seat_top" for="d16">D16</label>
+              <label class="seat_bottom" for="d16"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="d17" />
+              <label class="seat_top" for="d17">D17</label>
+              <label class="seat_bottom" for="d17"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="d18" />
+              <label class="seat_top" for="d18">D18</label>
+              <label class="seat_bottom" for="d18"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="d19" />
+              <label class="seat_top" for="d19">D19</label>
+              <label class="seat_bottom" for="d19"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="d20" />
+              <label class="seat_top" for="d20">D20</label>
+              <label class="seat_bottom" for="d20"></label>
+            </div>
+          </section>
+
+          <section class="fifthteenth__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="c7" />
+              <label class="seat_top" for="c7">C7</label>
+              <label class="seat_bottom" for="c7"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="c8" />
+              <label class="seat_top" for="c8">C8</label>
+              <label class="seat_bottom" for="c8"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="c9" />
+              <label class="seat_top" for="c9">C9</label>
+              <label class="seat_bottom" for="c9"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="c10" />
+              <label class="seat_top" for="c10">C10</label>
+              <label class="seat_bottom" for="c10"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="c11" />
+              <label class="seat_top" for="c11">C11</label>
+              <label class="seat_bottom" for="c11"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="c12" />
+              <label class="seat_top" for="c12">C12</label>
+              <label class="seat_bottom" for="c12"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="c13" />
+              <label class="seat_top" for="c13">C13</label>
+              <label class="seat_bottom" for="c13"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="c14" />
+              <label class="seat_top" for="c14">C14</label>
+              <label class="seat_bottom" for="c14"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="c15" />
+              <label class="seat_top" for="c15">C15</label>
+              <label class="seat_bottom" for="c15"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="c16" />
+              <label class="seat_top" for="c16">C16</label>
+              <label class="seat_bottom" for="c16"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="c17" />
+              <label class="seat_top" for="c17">C17</label>
+              <label class="seat_bottom" for="C17"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="c18" />
+              <label class="seat_top" for="c18">C18</label>
+              <label class="seat_bottom" for="c18"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="c19" />
+              <label class="seat_top" for="c19">C19</label>
+              <label class="seat_bottom" for="c19"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="c20" />
+              <label class="seat_top" for="c20">C20</label>
+              <label class="seat_bottom" for="c20"></label>
+            </div>
+          </section>
+
+          <section class="sixthteenth__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="b7" />
+              <label class="seat_top" for="b7">B7</label>
+              <label class="seat_bottom" for="b7"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="b8" />
+              <label class="seat_top" for="b8">B8</label>
+              <label class="seat_bottom" for="b8"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="b9" />
+              <label class="seat_top" for="b9">B9</label>
+              <label class="seat_bottom" for="b9"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="b10" />
+              <label class="seat_top" for="b10">B10</label>
+              <label class="seat_bottom" for="b10"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="b11" />
+              <label class="seat_top" for="b11">B11</label>
+              <label class="seat_bottom" for="b11"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="b12" />
+              <label class="seat_top" for="b12">B12</label>
+              <label class="seat_bottom" for="b12"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="b13" />
+              <label class="seat_top" for="b13">B13</label>
+              <label class="seat_bottom" for="b13"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="b14" />
+              <label class="seat_top" for="b14">B14</label>
+              <label class="seat_bottom" for="b14"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="b15" />
+              <label class="seat_top" for="b15">B15</label>
+              <label class="seat_bottom" for="b15"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="b16" />
+              <label class="seat_top" for="b16">16</label>
+              <label class="seat_bottom" for="j16"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="b17" />
+              <label class="seat_top" for="b17">B17</label>
+              <label class="seat_bottom" for="b17"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="b18" />
+              <label class="seat_top" for="b18">B18</label>
+              <label class="seat_bottom" for="b18"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="b19" />
+              <label class="seat_top" for="b19">B19</label>
+              <label class="seat_bottom" for="b19"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="b20" />
+              <label class="seat_top" for="b20">B20</label>
+              <label class="seat_bottom" for="b20"></label>
+            </div>
+          </section>
+
+          <section class="seventhteenth__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="a7" />
+              <label class="seat_top" for="a7">A7</label>
+              <label class="seat_bottom" for="a7"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="a8" />
+              <label class="seat_top" for="a8">A8</label>
+              <label class="seat_bottom" for="a8"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="a9" />
+              <label class="seat_top" for="a9">A9</label>
+              <label class="seat_bottom" for="a9"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="a10" />
+              <label class="seat_top" for="a10">A10</label>
+              <label class="seat_bottom" for="a10"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="a11" />
+              <label class="seat_top" for="a11">A11</label>
+              <label class="seat_bottom" for="a11"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="a12" />
+              <label class="seat_top" for="a12">A12</label>
+              <label class="seat_bottom" for="a12"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="a13" />
+              <label class="seat_top" for="a13">A13</label>
+              <label class="seat_bottom" for="a13"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="a14" />
+              <label class="seat_top" for="a14">A14</label>
+              <label class="seat_bottom" for="a14"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="a15" />
+              <label class="seat_top" for="a15">A15</label>
+              <label class="seat_bottom" for="a15"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="a16" />
+              <label class="seat_top" for="a16">A16</label>
+              <label class="seat_bottom" for="a16"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="a17" />
+              <label class="seat_top" for="a17">A17</label>
+              <label class="seat_bottom" for="a17"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="a18" />
+              <label class="seat_top" for="a18">A18</label>
+              <label class="seat_bottom" for="a18"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="a19" />
+              <label class="seat_top" for="a19">A19</label>
+              <label class="seat_bottom" for="a19"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="a20" />
+              <label class="seat_top" for="a20">A20</label>
+              <label class="seat_bottom" for="a20"></label>
+            </div>
+          </section>
+        </section>
+
+        <!-- Third Column -->
+
+        <section class="third__column">
+          <section class="second__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="r19" />
+              <label class="seat_top" for="r19">R19</label>
+              <label class="seat_bottom" for="r19"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="r20" />
+              <label class="seat_top" for="r20">R20</label>
+              <label class="seat_bottom" for="r20"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="r21" />
+              <label class="seat_top" for="r21">R21</label>
+              <label class="seat_bottom" for="r21"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="r22" />
+              <label class="seat_top" for="r22">R22</label>
+              <label class="seat_bottom" for="r22"></label>
+            </div>
+          </section>
+
+          <section class="third__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="q20" />
+              <label class="seat_top" for="q20">Q20</label>
+              <label class="seat_bottom" for="q20"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="q21" />
+              <label class="seat_top" for="q21">Q21</label>
+              <label class="seat_bottom" for="q21"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="q22" />
+              <label class="seat_top" for="q22">Q22</label>
+              <label class="seat_bottom" for="q22"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="q23" />
+              <label class="seat_top" for="q23">Q23</label>
+              <label class="seat_bottom" for="q23"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="q24" />
+              <label class="seat_top" for="q24">Q24</label>
+              <label class="seat_bottom" for="q24"></label>
+            </div>
+          </section>
+
+          <section class="fourth__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="p21" />
+              <label class="seat_top" for="p21">P21</label>
+              <label class="seat_bottom" for="p21"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="p22" />
+              <label class="seat_top" for="p22">P22</label>
+              <label class="seat_bottom" for="p22"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="p23" />
+              <label class="seat_top" for="p23">P23</label>
+              <label class="seat_bottom" for="p23"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="p24" />
+              <label class="seat_top" for="p24">P24</label>
+              <label class="seat_bottom" for="p24"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="p25" />
+              <label class="seat_top" for="p25">P25</label>
+              <label class="seat_bottom" for="p25"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="p26" />
+              <label class="seat_top" for="p26">P26</label>
+              <label class="seat_bottom" for="p26"></label>
+            </div>
+          </section>
+
+          <section class="fifth__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="n20" />
+              <label class="seat_top" for="n20">N20</label>
+              <label class="seat_bottom" for="n20"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="n21" />
+              <label class="seat_top" for="n21">N21</label>
+              <label class="seat_bottom" for="n21"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="n23" />
+              <label class="seat_top" for="n23">N23</label>
+              <label class="seat_bottom" for="n23"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="n24" />
+              <label class="seat_top" for="n24">N24</label>
+              <label class="seat_bottom" for="n24"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="n25" />
+              <label class="seat_top" for="n25">N25</label>
+              <label class="seat_bottom" for="n25"></label>
+            </div>
+          </section>
+
+          <section class="sixth__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="m21" />
+              <label class="seat_top" for="m21">M21</label>
+              <label class="seat_bottom" for="m21"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="m22" />
+              <label class="seat_top" for="m22">M22</label>
+              <label class="seat_bottom" for="m22"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="m23" />
+              <label class="seat_top" for="m23">M23</label>
+              <label class="seat_bottom" for="m23"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="m24" />
+              <label class="seat_top" for="m24">M24</label>
+              <label class="seat_bottom" for="m24"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="m25" />
+              <label class="seat_top" for="m25">M25</label>
+              <label class="seat_bottom" for="m25"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="m26" />
+              <label class="seat_top" for="m26">M26</label>
+              <label class="seat_bottom" for="m26"></label>
+            </div>
+          </section>
+
+          <section class="seventh__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="l21" />
+              <label class="seat_top" for="l21">L21</label>
+              <label class="seat_bottom" for="l21"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="l22" />
+              <label class="seat_top" for="l22">L22</label>
+              <label class="seat_bottom" for="l22"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="l23" />
+              <label class="seat_top" for="l23">L23</label>
+              <label class="seat_bottom" for="l23"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="l24" />
+              <label class="seat_top" for="l24">L24</label>
+              <label class="seat_bottom" for="l24"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="l25" />
+              <label class="seat_top" for="l25">L25</label>
+              <label class="seat_bottom" for="l25"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="l26" />
+              <label class="seat_top" for="l26">L26</label>
+              <label class="seat_bottom" for="l26"></label>
+            </div>
+          </section>
+
+          <section class="eight__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="k21" />
+              <label class="seat_top" for="k21">K21</label>
+              <label class="seat_bottom" for="k21"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="k22" />
+              <label class="seat_top" for="k22">K22</label>
+              <label class="seat_bottom" for="k22"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="k23" />
+              <label class="seat_top" for="k23">K23</label>
+              <label class="seat_bottom" for="k23"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="k24" />
+              <label class="seat_top" for="k24">K24</label>
+              <label class="seat_bottom" for="k24"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="k25" />
+              <label class="seat_top" for="k25">K25</label>
+              <label class="seat_bottom" for="k25"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="k26" />
+              <label class="seat_top" for="k26">K26</label>
+              <label class="seat_bottom" for="k26"></label>
+            </div>
+          </section>
+
+          <section class="nine__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="j21" />
+              <label class="seat_top" for="j21">J21</label>
+              <label class="seat_bottom" for="j21"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="j22" />
+              <label class="seat_top" for="j22">J22</label>
+              <label class="seat_bottom" for="j22"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="j23" />
+              <label class="seat_top" for="j23">J23</label>
+              <label class="seat_bottom" for="j23"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="j24" />
+              <label class="seat_top" for="j24">J24</label>
+              <label class="seat_bottom" for="j24"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="j25" />
+              <label class="seat_top" for="j25">J25</label>
+              <label class="seat_bottom" for="j25"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="j26" />
+              <label class="seat_top" for="j26">J26</label>
+              <label class="seat_bottom" for="j26"></label>
+            </div>
+          </section>
+
+          <section class="tenth__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="h21" />
+              <label class="seat_top" for="h21">H21</label>
+              <label class="seat_bottom" for="h21"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="h22" />
+              <label class="seat_top" for="h22">H22</label>
+              <label class="seat_bottom" for="h22"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="h23" />
+              <label class="seat_top" for="h23">H23</label>
+              <label class="seat_bottom" for="h23"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="h24" />
+              <label class="seat_top" for="h24">H24</label>
+              <label class="seat_bottom" for="h24"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="h25" />
+              <label class="seat_top" for="h25">H25</label>
+              <label class="seat_bottom" for="h25"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="h26" />
+              <label class="seat_top" for="h26">H26</label>
+              <label class="seat_bottom" for="h26"></label>
+            </div>
+          </section>
+
+          <section class="eleventh__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="g21" />
+              <label class="seat_top" for="g21">G21</label>
+              <label class="seat_bottom" for="g21"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="g21" />
+              <label class="seat_top" for="g21">G21</label>
+              <label class="seat_bottom" for="g21"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="g22" />
+              <label class="seat_top" for="g22">G22</label>
+              <label class="seat_bottom" for="g22"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="g23" />
+              <label class="seat_top" for="g23">G23</label>
+              <label class="seat_bottom" for="g23"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="g24" />
+              <label class="seat_top" for="g24">G24</label>
+              <label class="seat_bottom" for="g24"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="g25" />
+              <label class="seat_top" for="g25">G25</label>
+              <label class="seat_bottom" for="g25"></label>
+            </div>
+          </section>
+
+          <section class="twelveth__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="f21" />
+              <label class="seat_top" for="f21">F21</label>
+              <label class="seat_bottom" for="f21"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="f22" />
+              <label class="seat_top" for="f22">F22</label>
+              <label class="seat_bottom" for="f22"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="f23" />
+              <label class="seat_top" for="f23">F23</label>
+              <label class="seat_bottom" for="f23"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="f24" />
+              <label class="seat_top" for="f24">F24</label>
+              <label class="seat_bottom" for="f24"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="f25" />
+              <label class="seat_top" for="f25">F25</label>
+              <label class="seat_bottom" for="f25"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="f26" />
+              <label class="seat_top" for="f26">F26</label>
+              <label class="seat_bottom" for="f26"></label>
+            </div>
+          </section>
+
+          <section class="thirteenth__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="e21" />
+              <label class="seat_top" for="e21">E21</label>
+              <label class="seat_bottom" for="e21"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="e22" />
+              <label class="seat_top" for="e22">E22</label>
+              <label class="seat_bottom" for="e22"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="e23" />
+              <label class="seat_top" for="e23">E23</label>
+              <label class="seat_bottom" for="e23"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="e24" />
+              <label class="seat_top" for="e24">E24</label>
+              <label class="seat_bottom" for="e24"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="e25" />
+              <label class="seat_top" for="e25">E25</label>
+              <label class="seat_bottom" for="e25"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="e26" />
+              <label class="seat_top" for="e26">E26</label>
+              <label class="seat_bottom" for="e26"></label>
+            </div>
+          </section>
+
+          <section class="fourteenth__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="d21" />
+              <label class="seat_top" for="d21">D21</label>
+              <label class="seat_bottom" for="d21"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="d22" />
+              <label class="seat_top" for="d22">D22</label>
+              <label class="seat_bottom" for="d22"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="d23" />
+              <label class="seat_top" for="d23">D23</label>
+              <label class="seat_bottom" for="d23"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="d24" />
+              <label class="seat_top" for="d24">D24</label>
+              <label class="seat_bottom" for="d24"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="d25" />
+              <label class="seat_top" for="d25">D25</label>
+              <label class="seat_bottom" for="d25"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="d26" />
+              <label class="seat_top" for="d26">D26</label>
+              <label class="seat_bottom" for="d26"></label>
+            </div>
+          </section>
+
+          <section class="fifthteenth__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="c21" />
+              <label class="seat_top" for="c21">C21</label>
+              <label class="seat_bottom" for="c21"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="c22" />
+              <label class="seat_top" for="c22">C22</label>
+              <label class="seat_bottom" for="c22"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="c23" />
+              <label class="seat_top" for="c23">C23</label>
+              <label class="seat_bottom" for="c23"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="c24" />
+              <label class="seat_top" for="c24">C24</label>
+              <label class="seat_bottom" for="c24"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="c25" />
+              <label class="seat_top" for="c25">C25</label>
+              <label class="seat_bottom" for="c25"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="c26" />
+              <label class="seat_top" for="c26">C26</label>
+              <label class="seat_bottom" for="c26"></label>
+            </div>
+          </section>
+
+          <section class="sixthteenth__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="b21" />
+              <label class="seat_top" for="b21">B21</label>
+              <label class="seat_bottom" for="b21"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="b22" />
+              <label class="seat_top" for="b22">B22</label>
+              <label class="seat_bottom" for="b22"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="b23" />
+              <label class="seat_top" for="b23">B23</label>
+              <label class="seat_bottom" for="b23"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="b24" />
+              <label class="seat_top" for="b24">B24</label>
+              <label class="seat_bottom" for="b24"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="b25" />
+              <label class="seat_top" for="b25">B25</label>
+              <label class="seat_bottom" for="b25"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="b26" />
+              <label class="seat_top" for="b26">B26</label>
+              <label class="seat_bottom" for="b26"></label>
+            </div>
+          </section>
+
+          <section class="seventhteenth__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="a21" />
+              <label class="seat_top" for="a21">A21</label>
+              <label class="seat_bottom" for="a21"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="a22" />
+              <label class="seat_top" for="a22">A22</label>
+              <label class="seat_bottom" for="a22"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="a23" />
+              <label class="seat_top" for="a23">A23</label>
+              <label class="seat_bottom" for="a23"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="a24" />
+              <label class="seat_top" for="a24">A24</label>
+              <label class="seat_bottom" for="a24"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="a25" />
+              <label class="seat_top" for="a25">A25</label>
+              <label class="seat_bottom" for="a25"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="a26" />
+              <label class="seat_top" for="a26">A26</label>
+              <label class="seat_bottom" for="a26"></label>
+            </div>
+          </section>
+        </section>
+      </section>
+
+      <!-- Box -->
+      <section class="box_Seats flexB seat_section">
+        <!-- Second Row -->
+
+        <h2 class="seat_section_heading box_h2">Box</h2>
+        <section class="second__column">
+          <section class="eightheenth__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="a" />
+              <label class="seat_top" for="a">A</label>
+              <label class="seat_bottom" for="a"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="b" />
+              <label class="seat_top" for="b">B</label>
+              <label class="seat_bottom" for="b"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="c" />
+              <label class="seat_top" for="c">C</label>
+              <label class="seat_bottom" for="c"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="d" />
+              <label class="seat_top" for="d">D</label>
+              <label class="seat_bottom" for="d"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="e" />
+              <label class="seat_top" for="e">E</label>
+              <label class="seat_bottom" for="e"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="f" />
+              <label class="seat_top" for="f">F</label>
+              <label class="seat_bottom" for="f"></label>
+            </div>
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="g" />
+              <label class="seat_top" for="g">G</label>
+              <label class="seat_bottom" for="g"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="h" />
+              <label class="seat_top" for="h">H</label>
+              <label class="seat_bottom" for="h"></label>
+            </div>
+          </section>
+        </section>
+      </section>
+
+      <!-- Balcony -->
+
+      <section class="balcony_Seats flexB seat_section">
+        <!-- First Column -->
+
+        <h2 class="seat_section_heading balcony_h2">Balcony</h2>
+        <section class="first__column">
+          <section class="ninetheenth__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_g1" />
+              <label class="seat_top" for="_g1">G1</label>
+              <label class="seat_bottom" for="_g1"></label>
+            </div>
+          </section>
+
+          <section class="twentieth__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_f1" />
+              <label class="seat_top" for="_f1">F1</label>
+              <label class="seat_bottom" for="_f1"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_f2" />
+              <label class="seat_top" for="_f2">F2</label>
+              <label class="seat_bottom" for="_f2"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_f3" />
+              <label class="seat_top" for="_f3">F3</label>
+              <label class="seat_bottom" for="_f3"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_f4" />
+              <label class="seat_top" for="_f4">F4</label>
+              <label class="seat_bottom" for="_f4"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_f5" />
+              <label class="seat_top" for="_f5">F5</label>
+              <label class="seat_bottom" for="_f5"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_f6" />
+              <label class="seat_top" for="_f6">F6</label>
+              <label class="seat_bottom" for="_f6"></label>
+            </div>
+          </section>
+
+          <section class="twenty-first__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_e1" />
+              <label class="seat_top" for="_e1">E1</label>
+              <label class="seat_bottom" for="_e1"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_e2" />
+              <label class="seat_top" for="_e2">E2</label>
+              <label class="seat_bottom" for="_e2"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_e3" />
+              <label class="seat_top" for="_e3">E3</label>
+              <label class="seat_bottom" for="_e3"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_e4" />
+              <label class="seat_top" for="_e4">E4</label>
+              <label class="seat_bottom" for="_e4"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_e5" />
+              <label class="seat_top" for="_e5">E5</label>
+              <label class="seat_bottom" for="_e5"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_e6" />
+              <label class="seat_top" for="_e6">E6</label>
+              <label class="seat_bottom" for="_e6"></label>
+            </div>
+          </section>
+
+          <section class="twenty-second__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_c1" />
+              <label class="seat_top" for="_c1">C1</label>
+              <label class="seat_bottom" for="_c1"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_c2" />
+              <label class="seat_top" for="_c2">C2</label>
+              <label class="seat_bottom" for="_c2"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_c3" />
+              <label class="seat_top" for="_c3">C3</label>
+              <label class="seat_bottom" for="_c3"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_c4" />
+              <label class="seat_top" for="_c4">C4</label>
+              <label class="seat_bottom" for="_c4"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_c5" />
+              <label class="seat_top" for="_c5">C5</label>
+              <label class="seat_bottom" for="_c5"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_c6" />
+              <label class="seat_top" for="_c6">C6</label>
+              <label class="seat_bottom" for="_c6"></label>
+            </div>
+          </section>
+
+          <section class="twenty-third__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_b1" />
+              <label class="seat_top" for="_b1">B1</label>
+              <label class="seat_bottom" for="_b1"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_b2" />
+              <label class="seat_top" for="_b2">B2</label>
+              <label class="seat_bottom" for="_b2"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_b3" />
+              <label class="seat_top" for="_b3">B3</label>
+              <label class="seat_bottom" for="_b3"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_b4" />
+              <label class="seat_top" for="_b4">B4</label>
+              <label class="seat_bottom" for="_b4"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_b5" />
+              <label class="seat_top" for="_b5">B5</label>
+              <label class="seat_bottom" for="_b5"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_b6" />
+              <label class="seat_top" for="_b6">B6</label>
+              <label class="seat_bottom" for="_b6"></label>
+            </div>
+          </section>
+
+          <section class="twenty-fourth__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_a1" />
+              <label class="seat_top" for="_a1">A1</label>
+              <label class="seat_bottom" for="_a1"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_a2" />
+              <label class="seat_top" for="_a2">A2</label>
+              <label class="seat_bottom" for="_a2"></label>
+            </div>
+          </section>
+        </section>
+
+        <!-- Second Column -->
+
+        <section class="second__column">
+          <section class="twentieth__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_f7" />
+              <label class="seat_top" for="_f7">F7</label>
+              <label class="seat_bottom" for="_f7"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_f8" />
+              <label class="seat_top" for="_f8">F8</label>
+              <label class="seat_bottom" for="_f8"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_f9" />
+              <label class="seat_top" for="_f9">F9</label>
+              <label class="seat_bottom" for="_f9"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_f10" />
+              <label class="seat_top" for="_f10">F10</label>
+              <label class="seat_bottom" for="_f10"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_f11" />
+              <label class="seat_top" for="_f11">F11</label>
+              <label class="seat_bottom" for="_f11"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_f12" />
+              <label class="seat_top" for="_f12">F12</label>
+              <label class="seat_bottom" for="_f12"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_f13" />
+              <label class="seat_top" for="_f13">F13</label>
+              <label class="seat_bottom" for="_f13"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_f14" />
+              <label class="seat_top" for="_f14">F14</label>
+              <label class="seat_bottom" for="_f14"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_f15" />
+              <label class="seat_top" for="_f15">F15</label>
+              <label class="seat_bottom" for="_f15"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_f16" />
+              <label class="seat_top" for="_f16">F16</label>
+              <label class="seat_bottom" for="_f16"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_f17" />
+              <label class="seat_top" for="_f17">F17</label>
+              <label class="seat_bottom" for="_f17"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_f18" />
+              <label class="seat_top" for="_f18">F18</label>
+              <label class="seat_bottom" for="_f18"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_f19" />
+              <label class="seat_top" for="_f19">F19</label>
+              <label class="seat_bottom" for="_f19"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_f20" />
+              <label class="seat_top" for="_f20">F20</label>
+              <label class="seat_bottom" for="_f20"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_f21" />
+              <label class="seat_top" for="_f21">F21</label>
+              <label class="seat_bottom" for="_f21"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_f22" />
+              <label class="seat_top" for="_f22">F22</label>
+              <label class="seat_bottom" for="_f22"></label>
+            </div>
+          </section>
+
+          <section class="twenty-first__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_e7" />
+              <label class="seat_top" for="_e7">E7</label>
+              <label class="seat_bottom" for="_e7"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_e8" />
+              <label class="seat_top" for="_e8">E8</label>
+              <label class="seat_bottom" for="_e8"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_e9" />
+              <label class="seat_top" for="_e9">E9</label>
+              <label class="seat_bottom" for="_e9"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_e10" />
+              <label class="seat_top" for="_e10">E10</label>
+              <label class="seat_bottom" for="_e10"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_e11" />
+              <label class="seat_top" for="_e11">E11</label>
+              <label class="seat_bottom" for="_e11"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_e12" />
+              <label class="seat_top" for="_e12">E12</label>
+              <label class="seat_bottom" for="_e12"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_e13" />
+              <label class="seat_top" for="_e13">E13</label>
+              <label class="seat_bottom" for="_e13"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_e14" />
+              <label class="seat_top" for="_e14">E14</label>
+              <label class="seat_bottom" for="_e14"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_e15" />
+              <label class="seat_top" for="_e15">E15</label>
+              <label class="seat_bottom" for="_e15"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_e16" />
+              <label class="seat_top" for="_e16">E16</label>
+              <label class="seat_bottom" for="_e16"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_e17" />
+              <label class="seat_top" for="_e17">E17</label>
+              <label class="seat_bottom" for="_e17"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_e18" />
+              <label class="seat_top" for="_f18">F18</label>
+              <label class="seat_bottom" for="_f18"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_e19" />
+              <label class="seat_top" for="_e19">E19</label>
+              <label class="seat_bottom" for="_e19"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_e20" />
+              <label class="seat_top" for="_e20">E20</label>
+              <label class="seat_bottom" for="_e20"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_e21" />
+              <label class="seat_top" for="_e21">E21</label>
+              <label class="seat_bottom" for="_e21"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_e22" />
+              <label class="seat_top" for="_e22">E22</label>
+              <label class="seat_bottom" for="_e22"></label>
+            </div>
+          </section>
+
+          <section class="twenty-second__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_c7" />
+              <label class="seat_top" for="_c7">C7</label>
+              <label class="seat_bottom" for="_c7"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_c8" />
+              <label class="seat_top" for="_c8">C8</label>
+              <label class="seat_bottom" for="_c8"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_c9" />
+              <label class="seat_top" for="_c9">C9</label>
+              <label class="seat_bottom" for="_c9"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_c10" />
+              <label class="seat_top" for="_c10">C10</label>
+              <label class="seat_bottom" for="_c10"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_c11" />
+              <label class="seat_top" for="_c11">C11</label>
+              <label class="seat_bottom" for="_c11"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_c12" />
+              <label class="seat_top" for="_c12">C12</label>
+              <label class="seat_bottom" for="_c12"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_c13" />
+              <label class="seat_top" for="_c13">C13</label>
+              <label class="seat_bottom" for="_c13"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_c14" />
+              <label class="seat_top" for="_c14">C14</label>
+              <label class="seat_bottom" for="_c14"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_c15" />
+              <label class="seat_top" for="_c15">C15</label>
+              <label class="seat_bottom" for="_c15"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_c16" />
+              <label class="seat_top" for="_c16">C16</label>
+              <label class="seat_bottom" for="_c16"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_c17" />
+              <label class="seat_top" for="_c17">C17</label>
+              <label class="seat_bottom" for="_c17"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_c18" />
+              <label class="seat_top" for="_c18">C18</label>
+              <label class="seat_bottom" for="_c18"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_c19" />
+              <label class="seat_top" for="_c19">C19</label>
+              <label class="seat_bottom" for="_c19"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_c20" />
+              <label class="seat_top" for="_c20">C20</label>
+              <label class="seat_bottom" for="_c20"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_c21" />
+              <label class="seat_top" for="_c21">C21</label>
+              <label class="seat_bottom" for="_c21"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_c22" />
+              <label class="seat_top" for="_c22">C22</label>
+              <label class="seat_bottom" for="_c22"></label>
+            </div>
+          </section>
+
+          <section class="twenty-third__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_b7" />
+              <label class="seat_top" for="_b7">B7</label>
+              <label class="seat_bottom" for="_b7"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_b8" />
+              <label class="seat_top" for="_b8">B8</label>
+              <label class="seat_bottom" for="_b8"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_b9" />
+              <label class="seat_top" for="_b9">B9</label>
+              <label class="seat_bottom" for="_b9"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_b10" />
+              <label class="seat_top" for="_b10">B10</label>
+              <label class="seat_bottom" for="_b10"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_b11" />
+              <label class="seat_top" for="_b11">B11</label>
+              <label class="seat_bottom" for="_b11"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_b12" />
+              <label class="seat_top" for="_b12">B12</label>
+              <label class="seat_bottom" for="_b12"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_b13" />
+              <label class="seat_top" for="_b13">B13</label>
+              <label class="seat_bottom" for="_b13"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_b14" />
+              <label class="seat_top" for="_b14">B14</label>
+              <label class="seat_bottom" for="_b14"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_b15" />
+              <label class="seat_top" for="_b15">B15</label>
+              <label class="seat_bottom" for="_b15"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_b16" />
+              <label class="seat_top" for="_b16">B16</label>
+              <label class="seat_bottom" for="_b16"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_b17" />
+              <label class="seat_top" for="_b17">B17</label>
+              <label class="seat_bottom" for="_b17"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_b18" />
+              <label class="seat_top" for="_b18">B18</label>
+              <label class="seat_bottom" for="_b18"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_b19" />
+              <label class="seat_top" for="_b19">B19</label>
+              <label class="seat_bottom" for="_b19"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_b20" />
+              <label class="seat_top" for="_b20">B20</label>
+              <label class="seat_bottom" for="_b20"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_b21" />
+              <label class="seat_top" for="_b21">B21</label>
+              <label class="seat_bottom" for="_b21"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_b22" />
+              <label class="seat_top" for="_b22">B22</label>
+              <label class="seat_bottom" for="_b22"></label>
+            </div>
+          </section>
+        </section>
+
+        <!-- Third Column -->
+
+        <section class="third__column">
+          <section class="ninetheenth__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_g2" />
+              <label class="seat_top" for="_g2">G2</label>
+              <label class="seat_bottom" for="_g2"></label>
+            </div>
+          </section>
+
+          <section class="twentieth__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_f23" />
+              <label class="seat_top" for="_f23">F23</label>
+              <label class="seat_bottom" for="_f23"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_f24" />
+              <label class="seat_top" for="_f24">F24</label>
+              <label class="seat_bottom" for="_f24"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_f25" />
+              <label class="seat_top" for="_f25">F25</label>
+              <label class="seat_bottom" for="_f25"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_f26" />
+              <label class="seat_top" for="_f26">F26</label>
+              <label class="seat_bottom" for="_f26"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_f27" />
+              <label class="seat_top" for="_f27">F27</label>
+              <label class="seat_bottom" for="_f27"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_f28" />
+              <label class="seat_top" for="_f28">F28</label>
+              <label class="seat_bottom" for="_f28"></label>
+            </div>
+          </section>
+
+          <section class="twenty-first__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_e23" />
+              <label class="seat_top" for="_e23">E23</label>
+              <label class="seat_bottom" for="_e23"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_e24" />
+              <label class="seat_top" for="_e24">E24</label>
+              <label class="seat_bottom" for="_e24"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_e25" />
+              <label class="seat_top" for="_e25">E25</label>
+              <label class="seat_bottom" for="_e25"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_e26" />
+              <label class="seat_top" for="_e26">E26</label>
+              <label class="seat_bottom" for="_e26"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_e27" />
+              <label class="seat_top" for="_e27">E27</label>
+              <label class="seat_bottom" for="_e27"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_e28" />
+              <label class="seat_top" for="_e28">E28</label>
+              <label class="seat_bottom" for="_e28"></label>
+            </div>
+          </section>
+
+          <section class="twenty-second__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_c23" />
+              <label class="seat_top" for="_c23">C23</label>
+              <label class="seat_bottom" for="_c23"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_c24" />
+              <label class="seat_top" for="_c24">C24</label>
+              <label class="seat_bottom" for="_c24"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_c25" />
+              <label class="seat_top" for="_c25">C25</label>
+              <label class="seat_bottom" for="_c25"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_c26" />
+              <label class="seat_top" for="_c26">C26</label>
+              <label class="seat_bottom" for="_c26"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_c27" />
+              <label class="seat_top" for="_c27">C27</label>
+              <label class="seat_bottom" for="_c27"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_c28" />
+              <label class="seat_top" for="_c28">C28</label>
+              <label class="seat_bottom" for="_c28"></label>
+            </div>
+          </section>
+
+          <section class="twenty-third__row_ flexB row">
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_b23" />
+              <label class="seat_top" for="_b23">B23</label>
+              <label class="seat_bottom" for="_b23"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_b24" />
+              <label class="seat_top" for="_b24">B24</label>
+              <label class="seat_bottom" for="_b24"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_b25" />
+              <label class="seat_top" for="_b25">B25</label>
+              <label class="seat_bottom" for="_b25"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_b26" />
+              <label class="seat_top" for="_b26">B26</label>
+              <label class="seat_bottom" for="_b26"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_b27" />
+              <label class="seat_top" for="_b27">B27</label>
+              <label class="seat_bottom" for="_b27"></label>
+            </div>
+
+            <div class="seat flexB">
+              <input class="seat_CB" type="checkbox" id="_b28" />
+              <label class="seat_top" for="_b28">B28</label>
+              <label class="seat_bottom" for="_b28"></label>
+            </div>
+          </section>
+        </section>
+      </section>
+    </section>
+  </body>
+</html>
