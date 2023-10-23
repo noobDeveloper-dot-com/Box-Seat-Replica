@@ -75,9 +75,18 @@ h1 {
   top: 70%;
   left: 0;
   right: 0;
-  transform: translateY(-70%);
+  transform: translateY(-60%);
   z-index: 2;
+  opacity: 0;
   pointer-events: none;
+
+  transition: opacity 200ms, transform 300ms;
+}
+
+.modal_wrapper.view {
+  opacity: 1;
+  transform: translateY(-70%);
+  pointer-events: auto;
 }
 
 .close_button {
@@ -103,15 +112,6 @@ h1 {
   min-height: 420px;
   padding: 4px;
   border-radius: 10px;
-  opacity: 0;
-
-  transition: opacity 200ms, transform 200ms;
-  transform: translateY(30px);
-}
-
-.modal.view {
-  opacity: 1;
-  transform: translateY(0);
 }
 
 .row-categories {
