@@ -82,20 +82,18 @@ h1 {
 
 .modal {
   position: fixed;
-  top: 120px;
-  left: 0;
-  right: 0;
+  inset: 7vh 10px auto 10px;
   background-image: url("Assets/Seat plan-mobile.svg");
   background-repeat: no-repeat;
   background-position: center;
-  background-size: 170px;
+  background-size: min(80%, 400px) min(80%, 800px);
   background-color: #fff;
-  width: 56%;
-  max-width: 450px;
-  min-width: 275px;
+  width: min(80%, 500px);
+  /* width: 60vmin; You can adjust this as per your requirement */
+  /* min-height: 60vmin; Make sure to set a height for the modal */
   margin: 0 auto;
-  min-height: 420px;
-  padding: 4px;
+  padding: 10px;
+  min-height: max(80%, 300px);
   border-radius: 10px;
   z-index: 2;
   opacity: 0;
@@ -241,11 +239,9 @@ h1 {
 .balcony_Seats .third__column .row {
   justify-content: flex-end;
 }
-@media (min-width: 523px) {
+
+@media (max-height: 500px) {
   .modal {
-    width: 60%;
-    background-image: url("Assets/Seat plan-desktop.png");
-    background-size: 300px;
-    min-height: 480px;
+    width: min(80%, 300px);
   }
 }
